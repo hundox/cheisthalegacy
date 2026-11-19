@@ -1,0 +1,3106 @@
+[
+{
+  "model": "sitecontent.sitepage",
+  "pk": 1,
+  "fields": {
+    "slug": "home",
+    "title": "Home",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.sitepage",
+  "pk": 2,
+  "fields": {
+    "slug": "foundation",
+    "title": "Foundation",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.sitepage",
+  "pk": 3,
+  "fields": {
+    "slug": "initiatives",
+    "title": "Legacy in Action",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.sitepage",
+  "pk": 4,
+  "fields": {
+    "slug": "journey",
+    "title": "Remembering Cheistha: Her Formative Years",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.sitepage",
+  "pk": 5,
+  "fields": {
+    "slug": "professional",
+    "title": "Remembering Cheistha: Professional Journey",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.sitepage",
+  "pk": 6,
+  "fields": {
+    "slug": "gallery",
+    "title": "Remembering Cheistha: Gallery",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.sitepage",
+  "pk": 7,
+  "fields": {
+    "slug": "timeline",
+    "title": "Remembering Cheistha: Timeline",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.sitepage",
+  "pk": 8,
+  "fields": {
+    "slug": "search",
+    "title": "Remembering Cheistha: Search",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.sitepage",
+  "pk": 9,
+  "fields": {
+    "slug": "contact",
+    "title": "Contact",
+    "meta_description": "",
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.siteconfiguration",
+  "pk": 1,
+  "fields": {
+    "name": "Main configuration",
+    "site_name": "The Cheistha Kochhar Foundation",
+    "linkedin_url": "https://in.linkedin.com/company/cheistha-kochhar-foundation",
+    "partnership_url": "https://docs.google.com/forms/d/e/1FAIpQLSdqSK-5Hza3rsq9cASGmVS9-aDtL3eCBaS2mEUBdxrQkRdxyw/viewform?usp=publish-editor",
+    "forever_missed_url": "https://www.forevermissed.com/cheistha-kochhar/stories"
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 1,
+  "fields": {
+    "page": 1,
+    "key": "hero",
+    "eyebrow": "In loving memory of Cheistha Kochhar",
+    "heading": "The Cheistha Kochhar Foundation",
+    "body": "Advancing Nudge theory, research, education and public policy, translating thoughtful ideas into lasting social impact, in partnership with universities, public institutions and global organisations.",
+    "image": "",
+    "image_alt": "",
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 2,
+  "fields": {
+    "page": 1,
+    "key": "foundation",
+    "eyebrow": "The Foundation",
+    "heading": "What the Foundation does",
+    "body": "The Cheistha Kochhar Foundation carries forward her conviction that rigorous ideas, applied with empathy, can change how institutions serve people through nudge theory, public policy, education and scholarships, leadership programmes, memorial lectures and partnerships. Its continuing work is gathered under Legacy in Action.",
+    "image": "",
+    "image_alt": "",
+    "order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 3,
+  "fields": {
+    "page": 1,
+    "key": "remembering",
+    "eyebrow": "The person behind the Foundation",
+    "heading": "Remembering Cheistha",
+    "body": "Behind every initiative is a person whose ideas, values and cheerful courage made this work possible. What follows is her story: a curious mind shaped by school corridors, university halls and a lifelong belief in public service.",
+    "image": "",
+    "image_alt": "",
+    "order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 4,
+  "fields": {
+    "page": 1,
+    "key": "journey",
+    "eyebrow": "Her life & education",
+    "heading": "Her Formative Years",
+    "body": "Four chapters, a clockwise walk around her portrait, trace a curious, cheerful mind through childhood, primary school, senior school and college.",
+    "image": "",
+    "image_alt": "",
+    "order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 5,
+  "fields": {
+    "page": 1,
+    "key": "professional",
+    "eyebrow": "Her work & institutions",
+    "heading": "Professional Journey",
+    "body": "This chapter explores Cheistha Kochhar's professional experiences and the institutions that shaped her career and public service journey.",
+    "image": "",
+    "image_alt": "",
+    "order": 4,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 6,
+  "fields": {
+    "page": 2,
+    "key": "overview",
+    "eyebrow": "Foundation Overview",
+    "heading": "The Cheistha Kochhar Foundation",
+    "body": "The Cheistha Kochhar Foundation carries forward the legacy of Cheistha Kochhar, a brilliant economist, researcher, policy professional and behavioural strategist whose life embodied intellect, empathy and an unwavering commitment to national and social good.",
+    "image": "",
+    "image_alt": "",
+    "order": 5,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 7,
+  "fields": {
+    "page": 2,
+    "key": "recognition",
+    "eyebrow": "Recognition and continuing remembrance",
+    "heading": "Recognition and continuing remembrance",
+    "body": "A recipient of numerous honours including the LSE Research Fellowship, Young India Fellowship, Clinton Global Fellowship (2019), Erwin B. Harris Scholarship, Roshan Lal Trust Scholarship and the Tata Scholarship, her achievements reflected her exceptional promise. Though her life was tragically cut short in an accident, her impact continues to grow. The London School of Economics now confers the Cheistha Kochhar Master of Research Prize on her birthday and has named its PhD study room after her. The University of Delhi hosts an annual memorial lecture and rolling trophies for the Best Nudge Project. ISPP and the Harris School of Public Policy, University of Chicago, have renamed the Anubhav Series in her honour and established multiple scholarships. Sri Venkateswara College, Army Public School Mhow, Ashoka University, MANAS School and C-DEP also commemorate her through annual lectures, awards and scholarships. Her personal library has been shared with Ashoka University and the Military College of Telecommunications.",
+    "image": "",
+    "image_alt": "",
+    "order": 6,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 8,
+  "fields": {
+    "page": 2,
+    "key": "purpose",
+    "eyebrow": "The Foundation's purpose",
+    "heading": "The Foundation's purpose",
+    "body": "Founded in her memory, the Foundation advances her vision through initiatives in education, gender equity, behavioural science, social impact research, community and animal welfare, and organisational behaviour. Guided by her pioneering work, we strive to build an inclusive, equitable and compassionate world through collaborations, scholarships, research and meaningful dialogue.",
+    "image": "",
+    "image_alt": "",
+    "order": 7,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 9,
+  "fields": {
+    "page": 2,
+    "key": "legacy-in-action",
+    "eyebrow": "The Foundation's work",
+    "heading": "Legacy in Action",
+    "body": "Cheistha's vision continues to inspire a growing movement across academia, public policy, behavioural science and social impact. Through collaborations with leading universities, public institutions and global organisations, the Foundation advances her commitment to behavioural science, research, leadership and public service.",
+    "image": "",
+    "image_alt": "",
+    "order": 8,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 10,
+  "fields": {
+    "page": 2,
+    "key": "focus",
+    "eyebrow": "Our areas of work",
+    "heading": "What we carry forward",
+    "body": "The Foundation's focus areas and programmes.",
+    "image": "",
+    "image_alt": "",
+    "order": 9,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.pagesection",
+  "pk": 11,
+  "fields": {
+    "page": 9,
+    "key": "hero",
+    "eyebrow": "Foundation Information",
+    "heading": "In touch with the Foundation",
+    "body": "The Cheistha Kochhar Foundation exists to preserve her memory and carry her spirit forward. Below are the ways to learn more, follow along, and contribute to this living archive.",
+    "image": "",
+    "image_alt": "",
+    "order": 10,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 1,
+  "fields": {
+    "label": "Home",
+    "url": "/",
+    "parent": null,
+    "order": 0,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 2,
+  "fields": {
+    "label": "Foundation",
+    "url": "/foundation",
+    "parent": null,
+    "order": 1,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 3,
+  "fields": {
+    "label": "Legacy in Action",
+    "url": "/foundation#legacy-in-action",
+    "parent": null,
+    "order": 2,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 4,
+  "fields": {
+    "label": "Remembering Cheistha",
+    "url": "/#remembering",
+    "parent": null,
+    "order": 3,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 5,
+  "fields": {
+    "label": "Her Formative Years",
+    "url": "/#journey",
+    "parent": 4,
+    "order": 0,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 6,
+  "fields": {
+    "label": "Professional Journey",
+    "url": "/professional",
+    "parent": 4,
+    "order": 1,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 7,
+  "fields": {
+    "label": "Gallery",
+    "url": "/gallery",
+    "parent": 4,
+    "order": 2,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 8,
+  "fields": {
+    "label": "Timeline",
+    "url": "/timeline",
+    "parent": 4,
+    "order": 3,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 9,
+  "fields": {
+    "label": "Search",
+    "url": "/search",
+    "parent": 4,
+    "order": 4,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.navigationitem",
+  "pk": 10,
+  "fields": {
+    "label": "Contact",
+    "url": "/contact",
+    "parent": null,
+    "order": 4,
+    "is_visible": true,
+    "open_in_new_tab": false
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 1,
+  "fields": {
+    "kind": "journey",
+    "slug": "early-childhood",
+    "title": "Early Childhood",
+    "period": "The earliest years",
+    "tagline": "The beginning of a curious mind.",
+    "intro": "Cheistha was born in Bareilly on 10 August 1990 into an Army family.",
+    "highlights": "Born in Bareilly, 10 August 1990\r\nBorn into an Army family",
+    "institution": "",
+    "order": 0,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 2,
+  "fields": {
+    "kind": "journey",
+    "slug": "primary-school",
+    "title": "Primary School",
+    "period": "Class I – V",
+    "tagline": "First lessons, first friendships, first wonders.",
+    "intro": "She completed her early schooling in Army schools at Srinagar, Mhow, and Bhatinda.",
+    "highlights": "Army schools at Srinagar, Mhow and Bhatinda",
+    "institution": "",
+    "order": 1,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 3,
+  "fields": {
+    "kind": "journey",
+    "slug": "school-years",
+    "title": "School Years",
+    "period": "Class VI – XII",
+    "tagline": "Formative years of learning and friendship.",
+    "intro": "She later attended Emerald Heights Public School, Indore, and the Convent of Jesus and Mary, New Delhi.\n\nDuring her school years, she was an active participant in debating, painting, and writing, including poetry, with many of her works published in relevant sections of newspapers. Remarkably, she also cleared the Inter exam of JJ School of Arts while in class 9.",
+    "highlights": "Emerald Heights Public School, Indore\nConvent of Jesus and Mary, New Delhi\nDebating, painting, writing and poetry\nCleared the Inter exam of JJ School of Arts in class 9",
+    "institution": "",
+    "order": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 4,
+  "fields": {
+    "kind": "journey",
+    "slug": "college",
+    "title": "College Graduation",
+    "period": "Undergraduate years",
+    "tagline": "A widening world of ideas.",
+    "intro": "She pursued her undergraduate studies in Economics (Hons) at Venkateshwara College, New Delhi.\n\nHer critical thinking and socially conscious entrepreneurial skills began to shine early. She co-founded Feed India and interned with the Centre for Civil Society (CCS), where she researched and wrote on topics including “Vigilanting the Vigilance.” She also presented a paper at a conference at Harvard during this period.",
+    "highlights": "Economics (Hons), Venkateshwara College, New Delhi\nCo-founded Feed India\nPresented a paper at a conference at Harvard",
+    "institution": "",
+    "order": 3,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 5,
+  "fields": {
+    "kind": "professional",
+    "slug": "centre-for-civil-society",
+    "title": "Centre for Civil Society",
+    "period": "Public Policy",
+    "tagline": "Early research and writing on governance and accountability.",
+    "intro": "An internship with the Centre for Civil Society (CCS) gave early expression to her analytical instincts and her interest in governance and accountability. There she researched and wrote on subjects such as “Vigilanting the Vigilance,” and it was in this period that she also presented a paper at a conference at Harvard.",
+    "highlights": "Research and writing, including “Vigilanting the Vigilance”\nFocus on governance and accountability\nPresented a paper at a conference at Harvard",
+    "institution": "",
+    "order": 4,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 6,
+  "fields": {
+    "kind": "professional",
+    "slug": "uidai",
+    "title": "UIDAI",
+    "period": "Identity & Governance",
+    "tagline": "Founding team of Aadhaar, and the first Aadhaar number in the country.",
+    "intro": "Cheistha then joined the founding team of Aadhaar, earning the distinction of being assigned the first Aadhaar number in the country due to her contributions in writing the process document as the youngest team member.",
+    "highlights": "Founding team of Aadhaar\nAssigned the first Aadhaar number in the country\nYoungest team member; wrote the process document",
+    "institution": "",
+    "order": 5,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 7,
+  "fields": {
+    "kind": "professional",
+    "slug": "mckinsey",
+    "title": "McKinsey & Company",
+    "period": "Strategy & Consulting",
+    "tagline": "A year as an analyst, after choosing to stay in India.",
+    "intro": "Although selected for a master’s in public policy at LSE with a full scholarship, she chose to stay in India, joining McKinsey as an analyst for a year, followed by the Young India Fellowship (YIF) as a fully paid fellow.",
+    "highlights": "Analyst for one year\nChose India over a fully funded LSE master’s offer",
+    "institution": "",
+    "order": 6,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 8,
+  "fields": {
+    "kind": "professional",
+    "slug": "young-india-fellowship",
+    "title": "Young India Fellowship",
+    "period": "Liberal Arts Fellowship",
+    "tagline": "A fully paid fellow remembered for compassion and a ready-to-help attitude.",
+    "intro": "Although selected for a master’s in public policy at LSE with a full scholarship, she chose to stay in India, joining McKinsey as an analyst for a year, followed by the Young India Fellowship (YIF) as a fully paid fellow. Her compassion and “ready-to-help” attitude left a lasting impression at YIF. After her passing, YIF compiled a booklet containing her quotes from her time there. Even after graduating, she remained a regular speaker for new YIF batches. In one of her speeches, she profoundly noted that her life principle was to create something that lasts far beyond herself.\n\nDuring this period, she also earned a PG diploma from the University of Pennsylvania.",
+    "highlights": "Fully paid fellow\nYIF compiled a booklet of her quotes after her passing\nRegular speaker for new YIF batches\nPG diploma from the University of Pennsylvania",
+    "institution": "",
+    "order": 7,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 9,
+  "fields": {
+    "kind": "professional",
+    "slug": "planning-commission",
+    "title": "Planning Commission",
+    "period": "National Policy",
+    "tagline": "Senior Advisor working concurrently with the Ministry of HRD.",
+    "intro": "After YIF, she worked concurrently in the Planning Commission and Ministry of HRD as a Senior Advisor, engaging with leading figures in Government and academia.",
+    "highlights": "Senior Advisor, Planning Commission and Ministry of HRD\nEngaged with leading figures in Government and academia",
+    "institution": "",
+    "order": 8,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 10,
+  "fields": {
+    "kind": "professional",
+    "slug": "university-of-chicago",
+    "title": "University of Chicago",
+    "period": "Graduate Studies",
+    "tagline": "From the Delhi Centre and the Anubhav Leadership Series to the Harris School.",
+    "intro": "She subsequently joined the University of Chicago Centre in Delhi, where she developed a deep interest in Organizational Behaviour and Leadership. She founded the Anubhav Leadership Series, which became immensely popular and has since been renamed the Cheistha Kochhar Anubhav Series. During her tenure, she successfully convinced the Government and UChicago to conduct courses at Chicago for mid-career bureaucrats, sending a batch under this initiative with DOPT.\n\nCheistha then joined the Harris School of the University of Chicago as a full-time resident student in the MAIDP program. She was awarded a full scholarship and received the Harris Fellowship, Clinton Fellowship, and TATA Memorial Scholarship. Her interest in Organizational Behaviour, particularly Nudge Theory, deepened as she interacted not only with Harris faculty but also with Nobel Laureates on campus, building lifelong professional relationships. She also served as a TA at the adjoining Booth School of Management.\n\nHer work extended to AI applications, which she applied in her research and writings, and she travelled extensively across neighbouring countries.",
+    "highlights": "Founded the Anubhav Leadership Series, now the Cheistha Kochhar Anubhav Series\nSent a batch of mid-career bureaucrats to Chicago with DOPT\nMAIDP, Harris School, with a full scholarship\nHarris Fellowship, Clinton Fellowship, TATA Memorial Scholarship\nTA at the Booth School of Management",
+    "institution": "",
+    "order": 9,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 11,
+  "fields": {
+    "kind": "professional",
+    "slug": "niti-aayog",
+    "title": "NITI Aayog",
+    "period": "Policy & Public Service",
+    "tagline": "Founder of India’s first Nudge Unit and the Global South’s first Behavioural Insights Unit.",
+    "intro": "When COVID struck, she returned to India and joined NITI Aayog as part of an embedded team from the Bill and Melinda Gates Foundation (BMGF) as a Senior Consultant, working directly in the CEO’s office. She established the Behavioural Insights Unit (BIU) in NITI Aayog, the first in the Global South, and founded India’s first Nudge Unit, passionately applying behavioural science to national projects. She contributed to numerous interventions, including the PM’s flagship LIFE project, organized a mega event at Kevadia, Gujarat, and conducted a global high-level conference chaired by the PM, attended by Heads of State, IMF, World Bank, and multiple Nobel Laureates. She also delivered several presentations to the PM on these initiatives.",
+    "highlights": "Senior Consultant, embedded BMGF team, CEO’s office\nEstablished the Behavioural Insights Unit, the first in the Global South\nFounded India’s first Nudge Unit\nContributed to the PM’s flagship LIFE project\nMega event at Kevadia, Gujarat\nGlobal high-level conference chaired by the PM",
+    "institution": "",
+    "order": 10,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.chapter",
+  "pk": 12,
+  "fields": {
+    "kind": "professional",
+    "slug": "london-school-of-economics",
+    "title": "London School of Economics",
+    "period": "Advanced Study",
+    "tagline": "A fully funded PhD on Nudge Theory implementation, with a focus on India.",
+    "intro": "Cheistha got married in December 2022. In September 2023, she joined LSE for a fully funded PhD programme in the Organisational Behaviour Department, focusing on Nudge Theory implementation with a particular emphasis on India. Her dedication led to her being assigned TA responsibilities within three months, nominated to co-present at an international conference in Copenhagen in July 2024, and concurrently appointed as a Senior Consultant at UChicago to establish a Nudge Unit with a focus on India. She also advised BIT informally on the same subject. By this stage, she was recognized as one of the few experts in implementing Nudge Theory and was co-authoring two books, one with Dr. Lourdes Sosa at LSE and another with Ranjan Daniels of University of Chicago.",
+    "highlights": "Fully funded PhD, Organisational Behaviour Department\nTA responsibilities within three months\nCo-presenter, international conference in Copenhagen, July 2024\nSenior Consultant at UChicago, establishing a Nudge Unit for India\nCo-authoring two books, with Dr. Lourdes Sosa and Ranjan Daniels",
+    "institution": "",
+    "order": 11,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 1,
+  "fields": {
+    "slug": "first-memorial-lecture-du",
+    "title": "1st Cheistha Kochhar Memorial Lecture",
+    "institution": "University of Delhi | Department of Psychology & Cheistha Kochhar Nudge Centre",
+    "tagline": "The inaugural memorial lecture on the future of behavioural science.",
+    "description": "Organised with the Department of Psychology, University of Delhi, the inaugural memorial lecture featured Biju Dominic discussing the future of behavioural science in a smartphone-first world and Cheistha's vision for digital-age nudging.",
+    "order": 0,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 2,
+  "fields": {
+    "slug": "brics-cci-women-icon-award",
+    "title": "BRICS CCI WE Global Women Icon Award",
+    "institution": "BRICS CCI WE: Global Women Leadership Programme 2025 & Annual Women's Summit 2026",
+    "tagline": "A special leadership lecture and a posthumous honour for exceptional contributions to behavioural science and public policy.",
+    "description": "Hosted by the BRICS CCI Women Empowerment Vertical, a special lecture on Nudge Theory in Leadership at the Global Women Leadership Programme 2025 explored how empathy, purpose and behavioural insights can transform leadership and workplace culture while honouring Cheistha's pioneering contributions. Cheistha was further posthumously honoured with the Global Women Icon Award at the BRICS CCI WE Annual Women's Summit 2026 for her exceptional contributions to behavioural science, innovation and public policy.",
+    "order": 1,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 3,
+  "fields": {
+    "slug": "lse-mres-prize",
+    "title": "Cheistha Kochhar Master of Research Prize",
+    "institution": "London School of Economics and Political Science (LSE)",
+    "tagline": "An annual prize celebrating excellence in research and academic integrity.",
+    "description": "Established by the Department of Management, LSE, this annual prize recognises the highest-performing MRes student and celebrates excellence in research and academic integrity.",
+    "order": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 4,
+  "fields": {
+    "slug": "annual-memorial-lecture-svc",
+    "title": "Annual Memorial Lecture & People Speak Memorial Debate",
+    "institution": "Sri Venkateswara College, University of Delhi",
+    "tagline": "An annual lecture connecting campus with careers, and a premier debating tournament celebrating fearless expression.",
+    "description": "Hosted by the Economics Association, the Annual Memorial Lecture connects campus with careers through insights on leadership, learning and purpose.\n\nHeld in Cheistha's memory, the People Speak Memorial Debate is a premier debating tournament celebrating critical thinking, reasoned discourse and fearless expression.",
+    "order": 3,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 5,
+  "fields": {
+    "slug": "behavioural-confluence-christ",
+    "title": "Behavioural Confluence",
+    "institution": "CHRIST (Deemed to be University), Bengaluru",
+    "tagline": "Public Policy Day bringing together researchers and policymakers.",
+    "description": "Public Policy Day at Behavioural Confluence honours Cheistha's legacy by bringing together researchers and policymakers to discuss behavioural science and governance.\n\nThe event grows out of the Foundation's long-term partnership with CHRIST (Deemed to be University), promoting behavioural science through lectures, workshops, research programmes and the Cheistha Kochhar Nudge Lecture Series.",
+    "order": 4,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 6,
+  "fields": {
+    "slug": "jibs-strategic-partnership",
+    "title": "Strategic Partnership with JIBS",
+    "institution": "Jindal Institute of Behavioural Sciences, O.P. Jindal Global University",
+    "tagline": "An MoU to advance behavioural science, and an annual rolling trophy for innovative, scalable projects.",
+    "description": "An MoU to advance behavioural science through collaborative research, leadership development, student engagement and community impact. The partnership also instituted the Cheistha Kochhar Rolling Trophy at the JIBS Nudge Lab Competition, an annual trophy recognising innovative behavioural science projects that offer scalable solutions to real-world challenges.",
+    "order": 5,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 7,
+  "fields": {
+    "slug": "good-samaritan-award",
+    "title": "Cheistha Kochhar Good Samaritan Award",
+    "institution": "In partnership with C-DEP Research",
+    "tagline": "An annual award recognising courage, compassion and public service.",
+    "description": "An annual award recognising extraordinary acts of courage, compassion and public service while supporting recipients to expand their impact.",
+    "order": 6,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 8,
+  "fields": {
+    "slug": "anubhav-lecture-series-ispp",
+    "title": "Cheistha Kochhar Anubhav Lecture Series",
+    "institution": "Indian School of Public Policy (ISPP)",
+    "tagline": "Equipping grassroots changemakers with leadership and public policy skills.",
+    "description": "Originally conceptualised by Cheistha and renamed in her honour, the series equips grassroots changemakers with leadership and public policy skills.",
+    "order": 7,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 9,
+  "fields": {
+    "slug": "merit-scholarship-manak-school",
+    "title": "Cheistha Kochhar Merit Scholarship",
+    "institution": "Manak School",
+    "tagline": "Merit scholarships recognising the effort and achievement of schoolchildren.",
+    "description": "The Cheistha Kochhar Merit Scholarship recognises students at Manak School for their dedication and achievement in their studies, with certificates presented to the scholars in the presence of their classmates.\n\nThe scholarship reflects Cheistha's lifelong belief in education as the foundation of opportunity, and the Foundation's commitment to encouraging young learners at the very beginning of their journey.",
+    "order": 8,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 10,
+  "fields": {
+    "slug": "debate-essay-aps-mhow",
+    "title": "Cheistha Kochhar Debate & Essay Writing Competition",
+    "institution": "Army Public School, Mhow",
+    "tagline": "A debate and essay writing competition held in her memory at her own school.",
+    "description": "Held in the fond memory of Cheistha Kochhar, an alumna of Army Public School, Mhow, the competition brings together young debaters and essayists in English and Hindi. The English and Hindi debate is open to Classes IX to XII, while the English essay writing contest runs in two categories, for Classes VI to VIII and Classes IX to XII.\n\nThe school remembers Cheistha as a student known for her academic prowess and excellence in co-curricular activities, a trail-blazing scholar and a visionary leader.",
+    "order": 9,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 11,
+  "fields": {
+    "slug": "rolling-trophy-ait-pune",
+    "title": "Cheistha Kochhar Best Female Post Graduate Student Award",
+    "institution": "Army Institute of Technology, Pune",
+    "tagline": "Honouring the best female postgraduate student in engineering and research.",
+    "description": "The Cheistha Kochhar Best Female Post Graduate Student Award was unveiled at the Army Institute of Technology, Pune, during the IEEE International Conference on Nexus of Digitization, Intelligence & Applications (ICNDIA-2026), held at the Institute on 18 and 19 September 2026. The award is presented as a rolling trophy carrying Cheistha's portrait, recognising a young woman who excels in engineering and research.\n\nThe unveiling was followed by a keynote address by Lt Gen Dr S P Kochhar, Cheistha's father, on the evolution of India's telecommunication and networking infrastructure. He also joined the release of the conference proceedings.\n\nThe conference brought together academicians, researchers, industry professionals and technology experts to exchange perspectives on digitization, intelligence, AI, cybersecurity and emerging applications. The award carries Cheistha's belief that rigour and opportunity should go hand in hand, and the Foundation's commitment to encouraging women to lead in technology and research.",
+    "order": 10,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.initiative",
+  "pk": 12,
+  "fields": {
+    "slug": "nudge-awards-ispp",
+    "title": "Cheistha Kochhar Nudge Awards",
+    "institution": "Indian School of Public Policy (ISPP)",
+    "tagline": "National awards for applied behavioural science creating social impact.",
+    "description": "National awards recognising individuals, teams and organisations applying behavioural science to create measurable social impact across India.",
+    "order": 11,
+    "is_published": true
+  }
+},
+{
+  "model": "sitecontent.focusarea",
+  "pk": 1,
+  "fields": {
+    "title": "Behavioural Science",
+    "description": "Supporting research and application of behavioural insights to public problems, the field at the heart of Cheistha's own scholarship.",
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.focusarea",
+  "pk": 2,
+  "fields": {
+    "title": "Public Policy & Governance",
+    "description": "Working with institutions on evidence-led policy, evaluation and public-interest research.",
+    "order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.focusarea",
+  "pk": 3,
+  "fields": {
+    "title": "Education & Scholarships",
+    "description": "Merit scholarships and school programmes that help students continue their studies with dignity.",
+    "order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.focusarea",
+  "pk": 4,
+  "fields": {
+    "title": "Leadership Programmes",
+    "description": "Mentoring and leadership initiatives, including collaborations with women's leadership platforms.",
+    "order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.focusarea",
+  "pk": 5,
+  "fields": {
+    "title": "Memorial Lectures & Awards",
+    "description": "Annual lectures and awards with universities and institutions that keep her ideas in public conversation.",
+    "order": 4,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.focusarea",
+  "pk": 6,
+  "fields": {
+    "title": "Partnerships & Collaboration",
+    "description": "Open to organisations, institutions and foundations seeking partners for philanthropic and social-impact work.",
+    "order": 5,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.contactdetail",
+  "pk": 1,
+  "fields": {
+    "name": "The Foundation",
+    "role": "Foundation Contact",
+    "email": "cheisthakochhar.foundation@gmail.com",
+    "phone": "8826348181",
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.contactdetail",
+  "pk": 2,
+  "fields": {
+    "name": "Lt Gen Dr S P Kochhar",
+    "role": "Cheistha’s Father",
+    "email": "kochharsp@yahoo.com",
+    "phone": "9871554400",
+    "order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 1,
+  "fields": {
+    "title": "ait-icndia-2026-release.jpeg",
+    "file": "site/media/ait-icndia-2026-release.jpeg",
+    "alt_text": "Release of the ICNDIA 2026 proceedings",
+    "role": "initiative_satellite",
+    "legacy_filename": "ait-icndia-2026-release.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 11,
+    "collection_key": "rolling-trophy-ait-pune",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 2,
+  "fields": {
+    "title": "ait-kochhars-audience.jpeg",
+    "file": "site/media/ait-kochhars-audience.jpeg",
+    "alt_text": "Lt Gen Dr S P Kochhar in the audience",
+    "role": "initiative_satellite",
+    "legacy_filename": "ait-kochhars-audience.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 11,
+    "collection_key": "rolling-trophy-ait-pune",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 3,
+  "fields": {
+    "title": "ait-rolling-trophy-presentation.jpeg",
+    "file": "site/media/ait-rolling-trophy-presentation.jpeg",
+    "alt_text": "The Best Female Post Graduate Student award being presented at Army Institute of Technology, Pune",
+    "role": "initiative_primary",
+    "legacy_filename": "ait-rolling-trophy-presentation.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 11,
+    "collection_key": "rolling-trophy-ait-pune",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 4,
+  "fields": {
+    "title": "ait-sp-kochhar-address.jpeg",
+    "file": "site/media/ait-sp-kochhar-address.jpeg",
+    "alt_text": "Lt Gen Dr S P Kochhar addressing the gathering",
+    "role": "initiative_satellite",
+    "legacy_filename": "ait-sp-kochhar-address.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 11,
+    "collection_key": "rolling-trophy-ait-pune",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 5,
+  "fields": {
+    "title": "ait-visitors-book.jpeg",
+    "file": "site/media/ait-visitors-book.jpeg",
+    "alt_text": "Lt Gen Dr S P Kochhar signing the visitors' book",
+    "role": "initiative_satellite",
+    "legacy_filename": "ait-visitors-book.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 11,
+    "collection_key": "rolling-trophy-ait-pune",
+    "slot": 3,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 6,
+  "fields": {
+    "title": "aml-memento.jpg",
+    "file": "site/media/aml-memento.jpg",
+    "alt_text": "A memento presented to the speaker",
+    "role": "initiative_satellite",
+    "legacy_filename": "aml-memento.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "annual-memorial-lecture-svc",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 7,
+  "fields": {
+    "title": "aml-panel.jpg",
+    "file": "site/media/aml-panel.jpg",
+    "alt_text": "The panel on stage at Sri Venkateswara College",
+    "role": "initiative_satellite",
+    "legacy_filename": "aml-panel.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "annual-memorial-lecture-svc",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 8,
+  "fields": {
+    "title": "aml-podium.jpg",
+    "file": "site/media/aml-podium.jpg",
+    "alt_text": "The memorial lecture at the podium",
+    "role": "initiative_satellite",
+    "legacy_filename": "aml-podium.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "annual-memorial-lecture-svc",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 9,
+  "fields": {
+    "title": "aml-primary.jpg",
+    "file": "site/media/aml-primary.jpg",
+    "alt_text": "Speakers and guests at the Annual Memorial Lecture",
+    "role": "initiative_primary",
+    "legacy_filename": "aml-primary.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "annual-memorial-lecture-svc",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 10,
+  "fields": {
+    "title": "anubhav-lecture-hall.jpg",
+    "file": "site/media/anubhav-lecture-hall.jpg",
+    "alt_text": "A session in the lecture hall",
+    "role": "initiative_satellite",
+    "legacy_filename": "anubhav-lecture-hall.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 8,
+    "collection_key": "anubhav-lecture-series-ispp",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 11,
+  "fields": {
+    "title": "anubhav-participants.jpg",
+    "file": "site/media/anubhav-participants.jpg",
+    "alt_text": "Cheistha with the programme's participants",
+    "role": "initiative_satellite",
+    "legacy_filename": "anubhav-participants.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 8,
+    "collection_key": "anubhav-lecture-series-ispp",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 12,
+  "fields": {
+    "title": "anubhav-poster.jpg",
+    "file": "site/media/anubhav-poster.jpg",
+    "alt_text": "The Cheistha Kochhar Anubhav Lecture Series poster",
+    "role": "initiative_primary",
+    "legacy_filename": "anubhav-poster.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 8,
+    "collection_key": "anubhav-lecture-series-ispp",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 13,
+  "fields": {
+    "title": "aps-mhow-cheistha-newspaper.jpeg",
+    "file": "site/media/aps-mhow-cheistha-newspaper.jpeg",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "aps-mhow-cheistha-newspaper.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 14,
+  "fields": {
+    "title": "aps-mhow-debate-banner.jpeg",
+    "file": "site/media/aps-mhow-debate-banner.jpeg",
+    "alt_text": "Trophies and guests before the competition banner at Army Public School, Mhow",
+    "role": "initiative_primary",
+    "legacy_filename": "aps-mhow-debate-banner.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 10,
+    "collection_key": "debate-essay-aps-mhow",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 15,
+  "fields": {
+    "title": "ashoka-campus.png",
+    "file": "site/media/ashoka-campus.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "ashoka-campus.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 16,
+  "fields": {
+    "title": "ashoka-yif-logo.png",
+    "file": "site/media/ashoka-yif-logo.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "ashoka-yif-logo.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 17,
+  "fields": {
+    "title": "brics-cci-stage-wide-1.jpg",
+    "file": "site/media/brics-cci-stage-wide-1.jpg",
+    "alt_text": "The trophy presented before the screen bearing Cheistha's name",
+    "role": "initiative_satellite",
+    "legacy_filename": "brics-cci-stage-wide-1.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 2,
+    "collection_key": "brics-cci-women-icon-award",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 18,
+  "fields": {
+    "title": "brics-cci-stage-wide-2.jpg",
+    "file": "site/media/brics-cci-stage-wide-2.jpg",
+    "alt_text": "The gathering on stage at the BRICS CCI WE Annual Summit 2026",
+    "role": "initiative_primary",
+    "legacy_filename": "brics-cci-stage-wide-2.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 2,
+    "collection_key": "brics-cci-women-icon-award",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 19,
+  "fields": {
+    "title": "brics-cci-trophy-handover.jpg",
+    "file": "site/media/brics-cci-trophy-handover.jpg",
+    "alt_text": "The Trailblazer Woman Icon trophy being handed over on stage",
+    "role": "initiative_satellite",
+    "legacy_filename": "brics-cci-trophy-handover.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 2,
+    "collection_key": "brics-cci-women-icon-award",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 20,
+  "fields": {
+    "title": "brics-cci-woman-icon.jpg",
+    "file": "site/media/brics-cci-woman-icon.png",
+    "alt_text": "The stage at the BRICS CCI WE Annual Summit 2026",
+    "role": "initiative_satellite",
+    "legacy_filename": "brics-cci-woman-icon.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 2,
+    "collection_key": "brics-cci-women-icon-award",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 21,
+  "fields": {
+    "title": "centre-for-civil-society-logo.png",
+    "file": "site/media/centre-for-civil-society-logo.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "centre-for-civil-society-logo.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 22,
+  "fields": {
+    "title": "cheistha-end-frame.png",
+    "file": "site/media/cheistha-end-frame.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "cheistha-end-frame.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 23,
+  "fields": {
+    "title": "cheistha-hero.mp4",
+    "file": "site/media/cheistha-hero.mp4",
+    "alt_text": "",
+    "role": "hero",
+    "legacy_filename": "cheistha-hero.mp4",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 24,
+  "fields": {
+    "title": "cheistha-portrait.jpeg",
+    "file": "site/media/cheistha-portrait.jpeg",
+    "alt_text": "",
+    "role": "portrait",
+    "legacy_filename": "cheistha-portrait.jpeg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 25,
+  "fields": {
+    "title": "chicago-campus.webp",
+    "file": "site/media/chicago-campus.webp",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "chicago-campus.webp",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 26,
+  "fields": {
+    "title": "chicago-shield.webp",
+    "file": "site/media/chicago-shield.webp",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "chicago-shield.webp",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 27,
+  "fields": {
+    "title": "childhood_1.jpg",
+    "file": "site/media/childhood_1.jpg",
+    "alt_text": "Cheistha as a young child",
+    "role": "chapter_gallery",
+    "legacy_filename": "childhood_1.jpg",
+    "page": null,
+    "chapter": 1,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 28,
+  "fields": {
+    "title": "christ-confluence-ceremony.jpeg",
+    "file": "site/media/christ-confluence-ceremony.jpeg",
+    "alt_text": "An address at the valedictory ceremony",
+    "role": "initiative_satellite",
+    "legacy_filename": "christ-confluence-ceremony.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 5,
+    "collection_key": "behavioural-confluence-christ",
+    "slot": 4,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 29,
+  "fields": {
+    "title": "christ-confluence-certificates.jpeg",
+    "file": "site/media/christ-confluence-certificates.jpeg",
+    "alt_text": "Participants with their certificates alongside Lt Gen Dr S P Kochhar",
+    "role": "initiative_satellite",
+    "legacy_filename": "christ-confluence-certificates.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 5,
+    "collection_key": "behavioural-confluence-christ",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 30,
+  "fields": {
+    "title": "christ-confluence-hall.jpeg",
+    "file": "site/media/christ-confluence-hall.jpeg",
+    "alt_text": "The hall at CHRIST University, Bengaluru, where Behavioural Confluence was held",
+    "role": "initiative_primary",
+    "legacy_filename": "christ-confluence-hall.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 5,
+    "collection_key": "behavioural-confluence-christ",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 31,
+  "fields": {
+    "title": "christ-confluence-kochhar-address.jpeg",
+    "file": "site/media/christ-confluence-kochhar-address.jpeg",
+    "alt_text": "Lt Gen Dr S P Kochhar addressing the gathering",
+    "role": "initiative_satellite",
+    "legacy_filename": "christ-confluence-kochhar-address.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 5,
+    "collection_key": "behavioural-confluence-christ",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 32,
+  "fields": {
+    "title": "christ-confluence-memento.jpeg",
+    "file": "site/media/christ-confluence-memento.jpeg",
+    "alt_text": "Lt Gen Dr S P Kochhar with participants, certificates and a memento",
+    "role": "initiative_satellite",
+    "legacy_filename": "christ-confluence-memento.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 5,
+    "collection_key": "behavioural-confluence-christ",
+    "slot": 3,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 33,
+  "fields": {
+    "title": "christ-confluence-speaker.jpeg",
+    "file": "site/media/christ-confluence-speaker.jpeg",
+    "alt_text": "A speaker at the Cheistha Kochhar Nudge Lecture Series ceremony",
+    "role": "initiative_satellite",
+    "legacy_filename": "christ-confluence-speaker.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 5,
+    "collection_key": "behavioural-confluence-christ",
+    "slot": 5,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 34,
+  "fields": {
+    "title": "christ-confluence-winner.jpeg",
+    "file": "site/media/christ-confluence-winner.jpeg",
+    "alt_text": "Lt Gen Dr S P Kochhar with the winner's trophy recipients",
+    "role": "initiative_satellite",
+    "legacy_filename": "christ-confluence-winner.jpeg",
+    "page": null,
+    "chapter": null,
+    "initiative": 5,
+    "collection_key": "behavioural-confluence-christ",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 35,
+  "fields": {
+    "title": "college_1.jpg",
+    "file": "site/media/college_1.jpg",
+    "alt_text": "Cheistha with college friends on a train journey",
+    "role": "chapter_gallery",
+    "legacy_filename": "college_1.jpg",
+    "page": null,
+    "chapter": 4,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 36,
+  "fields": {
+    "title": "fi2.jpg",
+    "file": "site/media/fi2.jpg",
+    "alt_text": "Students receiving Cheistha Kochhar Merit Scholarship certificates at Manak School",
+    "role": "initiative_primary",
+    "legacy_filename": "fi2.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 9,
+    "collection_key": "merit-scholarship-manak-school",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 37,
+  "fields": {
+    "title": "fi_1.jpg",
+    "file": "site/media/fi_1.jpg",
+    "alt_text": "Lt. Gen. Dr. S. P. Kochhar presenting the Foundation's contribution",
+    "role": "initiative_satellite",
+    "legacy_filename": "fi_1.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 9,
+    "collection_key": "merit-scholarship-manak-school",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 38,
+  "fields": {
+    "title": "fi_3.jpg",
+    "file": "site/media/fi_3.jpg",
+    "alt_text": "Lt. Gen. Dr. S. P. Kochhar with family among the children",
+    "role": "initiative_satellite",
+    "legacy_filename": "fi_3.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 9,
+    "collection_key": "merit-scholarship-manak-school",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 39,
+  "fields": {
+    "title": "fi_4.jpg",
+    "file": "site/media/fi_4.jpg",
+    "alt_text": "Children of Manak School gathered for the Merit Scholarship programme",
+    "role": "initiative_satellite",
+    "legacy_filename": "fi_4.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 9,
+    "collection_key": "merit-scholarship-manak-school",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 40,
+  "fields": {
+    "title": "foundation-logo.png",
+    "file": "site/media/foundation-logo.png",
+    "alt_text": "",
+    "role": "site",
+    "legacy_filename": "foundation-logo.png",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 41,
+  "fields": {
+    "title": "glass_card.jpg",
+    "file": "site/media/glass_card.jpg",
+    "alt_text": "",
+    "role": "portrait",
+    "legacy_filename": "glass_card.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 42,
+  "fields": {
+    "title": "good-samaritan-jayjit-plant.png",
+    "file": "site/media/good-samaritan-jayjit-plant.png",
+    "alt_text": "Dr Jayjit Bhattacharya exchanging a plant memento",
+    "role": "initiative_satellite",
+    "legacy_filename": "good-samaritan-jayjit-plant.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 7,
+    "collection_key": "good-samaritan-award",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 43,
+  "fields": {
+    "title": "good-samaritan-jayjit-podium.jpg",
+    "file": "site/media/good-samaritan-jayjit-podium.jpg",
+    "alt_text": "Dr Jayjit Bhattacharya addressing the gathering",
+    "role": "initiative_satellite",
+    "legacy_filename": "good-samaritan-jayjit-podium.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 7,
+    "collection_key": "good-samaritan-award",
+    "slot": 3,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 44,
+  "fields": {
+    "title": "good-samaritan-Screenshot_2026-10-05_121452.png",
+    "file": "site/media/good-samaritan-Screenshot_2026-10-05_121452.png",
+    "alt_text": "An address before the memorial screen at the Good Samaritan Award",
+    "role": "initiative_primary",
+    "legacy_filename": "good-samaritan-Screenshot_2026-10-05_121452.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 7,
+    "collection_key": "good-samaritan-award",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 45,
+  "fields": {
+    "title": "good-samaritan-Screenshot_2026-10-05_121507.png",
+    "file": "site/media/good-samaritan-Screenshot_2026-10-05_121507.png",
+    "alt_text": "The Good Samaritan Award being presented",
+    "role": "initiative_satellite",
+    "legacy_filename": "good-samaritan-Screenshot_2026-10-05_121507.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 7,
+    "collection_key": "good-samaritan-award",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 46,
+  "fields": {
+    "title": "good-samaritan-Screenshot_2026-10-05_121522.png",
+    "file": "site/media/good-samaritan-Screenshot_2026-10-05_121522.png",
+    "alt_text": "A memento of remembrance being presented",
+    "role": "initiative_satellite",
+    "legacy_filename": "good-samaritan-Screenshot_2026-10-05_121522.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 7,
+    "collection_key": "good-samaritan-award",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 47,
+  "fields": {
+    "title": "good-samaritan-Screenshot_2026-10-05_121555.png",
+    "file": "site/media/good-samaritan-Screenshot_2026-10-05_121555.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "good-samaritan-Screenshot_2026-10-05_121555.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 48,
+  "fields": {
+    "title": "good-samaritan-Screenshot_2026-10-05_121614.png",
+    "file": "site/media/good-samaritan-Screenshot_2026-10-05_121614.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "good-samaritan-Screenshot_2026-10-05_121614.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 49,
+  "fields": {
+    "title": "hero-portrait.jpg",
+    "file": "site/media/hero-portrait.jpg",
+    "alt_text": "",
+    "role": "portrait",
+    "legacy_filename": "hero-portrait.jpg",
+    "page": 2,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 50,
+  "fields": {
+    "title": "HS_1.jpg",
+    "file": "site/media/HS_1.jpg",
+    "alt_text": "Cheistha with her school team and teacher holding a winners' shield",
+    "role": "chapter_gallery",
+    "legacy_filename": "HS_1.jpg",
+    "page": null,
+    "chapter": 3,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 51,
+  "fields": {
+    "title": "hs_2.jpg",
+    "file": "site/media/hs_2.jpg",
+    "alt_text": "Cheistha in school uniform holding a trophy shield",
+    "role": "chapter_gallery",
+    "legacy_filename": "hs_2.jpg",
+    "page": null,
+    "chapter": 3,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 52,
+  "fields": {
+    "title": "HS_3.jpg",
+    "file": "site/media/HS_3.jpg",
+    "alt_text": "Cheistha compering at a school event alongside a fellow student",
+    "role": "chapter_gallery",
+    "legacy_filename": "HS_3.jpg",
+    "page": null,
+    "chapter": 3,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 53,
+  "fields": {
+    "title": "HS_4.jpg",
+    "file": "site/media/HS_4.jpg",
+    "alt_text": "Cheistha speaking on stage at an Army regiment event",
+    "role": "chapter_gallery",
+    "legacy_filename": "HS_4.jpg",
+    "page": null,
+    "chapter": 3,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 3,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 54,
+  "fields": {
+    "title": "HS_5.jpg",
+    "file": "site/media/HS_5.jpg",
+    "alt_text": "Cheistha beside her paintings at a school art exhibition",
+    "role": "chapter_gallery",
+    "legacy_filename": "HS_5.jpg",
+    "page": null,
+    "chapter": 3,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 4,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 55,
+  "fields": {
+    "title": "jibs-Screenshot_2026-10-01_113042.png",
+    "file": "site/media/jibs-Screenshot_2026-10-01_113042.png",
+    "alt_text": "The MoU being signed",
+    "role": "initiative_satellite",
+    "legacy_filename": "jibs-Screenshot_2026-10-01_113042.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-strategic-partnership",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 56,
+  "fields": {
+    "title": "jibs-Screenshot_2026-10-01_113058.png",
+    "file": "site/media/jibs-Screenshot_2026-10-01_113058.png",
+    "alt_text": "The framed MoU between JIBS and the Foundation",
+    "role": "initiative_primary",
+    "legacy_filename": "jibs-Screenshot_2026-10-01_113058.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-strategic-partnership",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 57,
+  "fields": {
+    "title": "jibs-Screenshot_2026-10-01_113250.png",
+    "file": "site/media/jibs-Screenshot_2026-10-01_113250.png",
+    "alt_text": "An address before the MoU backdrop",
+    "role": "initiative_satellite",
+    "legacy_filename": "jibs-Screenshot_2026-10-01_113250.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-strategic-partnership",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 58,
+  "fields": {
+    "title": "jibs-Screenshot_2026-10-05_114617.png",
+    "file": "site/media/jibs-Screenshot_2026-10-05_114617.png",
+    "alt_text": "A panel at the Behavioural Science Summit 2026",
+    "role": "initiative_satellite",
+    "legacy_filename": "jibs-Screenshot_2026-10-05_114617.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-strategic-partnership",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 59,
+  "fields": {
+    "title": "jibs-Screenshot_2026-10-05_115047.png",
+    "file": "site/media/jibs-Screenshot_2026-10-05_115047.png",
+    "alt_text": "The audience gathered at the Behavioural Science Summit 2026",
+    "role": "initiative_satellite",
+    "legacy_filename": "jibs-Screenshot_2026-10-05_115047.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-strategic-partnership",
+    "slot": 3,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 60,
+  "fields": {
+    "title": "lse-campus.webp",
+    "file": "site/media/lse-campus.webp",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "lse-campus.webp",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 61,
+  "fields": {
+    "title": "lse-cheistha.jpg",
+    "file": "site/media/lse-cheistha.jpg",
+    "alt_text": "Cheistha at the London School of Economics",
+    "role": "initiative_primary",
+    "legacy_filename": "lse-cheistha.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 3,
+    "collection_key": "lse-mres-prize",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 62,
+  "fields": {
+    "title": "lse-logo.png",
+    "file": "site/media/lse-logo.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "lse-logo.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 63,
+  "fields": {
+    "title": "lse-memorial-plaque.jpg",
+    "file": "site/media/lse-memorial-plaque.jpg",
+    "alt_text": "Memorial plaque to Cheistha at LSE",
+    "role": "initiative_satellite",
+    "legacy_filename": "lse-memorial-plaque.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 3,
+    "collection_key": "lse-mres-prize",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 64,
+  "fields": {
+    "title": "lse-phd-study-room.jpg",
+    "file": "site/media/lse-phd-study-room.jpg",
+    "alt_text": "The Cheistha Kochhar PhD Study Room at LSE",
+    "role": "initiative_satellite",
+    "legacy_filename": "lse-phd-study-room.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 3,
+    "collection_key": "lse-mres-prize",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 65,
+  "fields": {
+    "title": "lse-tributes.jpg",
+    "file": "site/media/lse-tributes.jpg",
+    "alt_text": "Tributes from LSE and the Harris School",
+    "role": "initiative_satellite",
+    "legacy_filename": "lse-tributes.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": 3,
+    "collection_key": "lse-mres-prize",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 66,
+  "fields": {
+    "title": "mckinsey-logo-marble.jpg",
+    "file": "site/media/mckinsey-logo-marble.jpg",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "mckinsey-logo-marble.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 67,
+  "fields": {
+    "title": "memorial-lecture-panel-seated.png",
+    "file": "site/media/memorial-lecture-panel-seated.png",
+    "alt_text": "The panel on stage at the 1st Cheistha Kochhar Memorial Lecture",
+    "role": "initiative_primary",
+    "legacy_filename": "memorial-lecture-panel-seated.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 1,
+    "collection_key": "first-memorial-lecture-du",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 68,
+  "fields": {
+    "title": "memorial-lecture-Screenshot_2026-10-05_120455.png",
+    "file": "site/media/memorial-lecture-Screenshot_2026-10-05_120455.png",
+    "alt_text": "Biju Dominic's slide: 'The Future of Nudge Theory in the world of Smartphones'",
+    "role": "initiative_satellite",
+    "legacy_filename": "memorial-lecture-Screenshot_2026-10-05_120455.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 1,
+    "collection_key": "first-memorial-lecture-du",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 69,
+  "fields": {
+    "title": "memorial-lecture-Screenshot_2026-10-05_120505.png",
+    "file": "site/media/memorial-lecture-Screenshot_2026-10-05_120505.png",
+    "alt_text": "A memento presented at the lecture's conclusion",
+    "role": "initiative_satellite",
+    "legacy_filename": "memorial-lecture-Screenshot_2026-10-05_120505.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 1,
+    "collection_key": "first-memorial-lecture-du",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 70,
+  "fields": {
+    "title": "memorial-lecture-Screenshot_2026-10-05_120521.png",
+    "file": "site/media/memorial-lecture-Screenshot_2026-10-05_120521.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "memorial-lecture-Screenshot_2026-10-05_120521.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 71,
+  "fields": {
+    "title": "memorial-lecture-Screenshot_2026-10-05_120536.png",
+    "file": "site/media/memorial-lecture-Screenshot_2026-10-05_120536.png",
+    "alt_text": "An address on Nudge Theory",
+    "role": "initiative_satellite",
+    "legacy_filename": "memorial-lecture-Screenshot_2026-10-05_120536.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 1,
+    "collection_key": "first-memorial-lecture-du",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 72,
+  "fields": {
+    "title": "memorial-lecture-Screenshot_2026-10-05_120554.png",
+    "file": "site/media/memorial-lecture-Screenshot_2026-10-05_120554.png",
+    "alt_text": "The concluding address at the 1st Cheistha Kochhar Memorial Lecture",
+    "role": "initiative_satellite",
+    "legacy_filename": "memorial-lecture-Screenshot_2026-10-05_120554.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 1,
+    "collection_key": "first-memorial-lecture-du",
+    "slot": 3,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 73,
+  "fields": {
+    "title": "niti-aayog-logo.webp",
+    "file": "site/media/niti-aayog-logo.webp",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "niti-aayog-logo.webp",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 74,
+  "fields": {
+    "title": "nudge-awards-certificate.png",
+    "file": "site/media/nudge-awards-certificate.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "nudge-awards-certificate.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 75,
+  "fields": {
+    "title": "nudge-awards-cheque.png",
+    "file": "site/media/nudge-awards-cheque.png",
+    "alt_text": "Award recipients with the ceremonial cheque",
+    "role": "initiative_satellite",
+    "legacy_filename": "nudge-awards-cheque.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 12,
+    "collection_key": "nudge-awards-ispp",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 76,
+  "fields": {
+    "title": "nudge-awards-father.png",
+    "file": "site/media/nudge-awards-father.png",
+    "alt_text": "Lt. Gen. Dr. S. P. Kochhar addressing the audience",
+    "role": "initiative_satellite",
+    "legacy_filename": "nudge-awards-father.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 12,
+    "collection_key": "nudge-awards-ispp",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 77,
+  "fields": {
+    "title": "nudge-awards-lousi-miranda.png",
+    "file": "site/media/nudge-awards-lousi-miranda.png",
+    "alt_text": "Mr Luis Miranda, Honorary Vice Chairperson, NITI Aayog, at the Nudge Awards 2026",
+    "role": "initiative_primary",
+    "legacy_filename": "nudge-awards-lousi-miranda.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 12,
+    "collection_key": "nudge-awards-ispp",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 78,
+  "fields": {
+    "title": "nudge-awards-primary.png",
+    "file": "site/media/nudge-awards-primary.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "nudge-awards-primary.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 79,
+  "fields": {
+    "title": "nudge-awards-recipient-cheque-1.png",
+    "file": "site/media/nudge-awards-recipient-cheque-1.png",
+    "alt_text": "A recipient receiving the ceremonial cheque",
+    "role": "initiative_satellite",
+    "legacy_filename": "nudge-awards-recipient-cheque-1.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 12,
+    "collection_key": "nudge-awards-ispp",
+    "slot": 3,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 80,
+  "fields": {
+    "title": "nudge-awards-recipient-cheque-2.png",
+    "file": "site/media/nudge-awards-recipient-cheque-2.png",
+    "alt_text": "Another recipient receiving the ceremonial cheque",
+    "role": "initiative_satellite",
+    "legacy_filename": "nudge-awards-recipient-cheque-2.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 12,
+    "collection_key": "nudge-awards-ispp",
+    "slot": 4,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 81,
+  "fields": {
+    "title": "nudge-awards-vice-chairperson.png",
+    "file": "site/media/nudge-awards-vice-chairperson.png",
+    "alt_text": "An address at the Nudge Awards 2026",
+    "role": "initiative_satellite",
+    "legacy_filename": "nudge-awards-vice-chairperson.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 12,
+    "collection_key": "nudge-awards-ispp",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 82,
+  "fields": {
+    "title": "people-speak-address.png",
+    "file": "site/media/people-speak-address.png",
+    "alt_text": "An address at the podium",
+    "role": "initiative_satellite",
+    "legacy_filename": "people-speak-address.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "people-speak-memorial-debate",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 83,
+  "fields": {
+    "title": "people-speak-best-speaker.png",
+    "file": "site/media/people-speak-best-speaker.png",
+    "alt_text": "The Best Open Speaker award",
+    "role": "initiative_satellite",
+    "legacy_filename": "people-speak-best-speaker.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "people-speak-memorial-debate",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 84,
+  "fields": {
+    "title": "people-speak-primary.png",
+    "file": "site/media/people-speak-primary.png",
+    "alt_text": "The People Speak '26 memorial debate trophies",
+    "role": "initiative_primary",
+    "legacy_filename": "people-speak-primary.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "people-speak-memorial-debate",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 85,
+  "fields": {
+    "title": "people-speak-runner-up.png",
+    "file": "site/media/people-speak-runner-up.png",
+    "alt_text": "The Open Runner-Up award",
+    "role": "initiative_satellite",
+    "legacy_filename": "people-speak-runner-up.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "people-speak-memorial-debate",
+    "slot": 3,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 86,
+  "fields": {
+    "title": "people-speak-winner.png",
+    "file": "site/media/people-speak-winner.png",
+    "alt_text": "The Open Winner's trophy presentation",
+    "role": "initiative_satellite",
+    "legacy_filename": "people-speak-winner.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 4,
+    "collection_key": "people-speak-memorial-debate",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 87,
+  "fields": {
+    "title": "planning-commission-logo.jpg",
+    "file": "site/media/planning-commission-logo.jpg",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "planning-commission-logo.jpg",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 88,
+  "fields": {
+    "title": "professional-cover.jpg",
+    "file": "site/media/professional-cover.jpg",
+    "alt_text": "",
+    "role": "chapter_cover",
+    "legacy_filename": "professional-cover.jpg",
+    "page": 5,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 89,
+  "fields": {
+    "title": "PS_1.jpg",
+    "file": "site/media/PS_1.jpg",
+    "alt_text": "Cheistha in traditional costume for a school performance",
+    "role": "chapter_gallery",
+    "legacy_filename": "PS_1.jpg",
+    "page": null,
+    "chapter": 2,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 90,
+  "fields": {
+    "title": "PS_2.jpg",
+    "file": "site/media/PS_2.jpg",
+    "alt_text": "Cheistha saluting with her brother holding the Indian flag",
+    "role": "chapter_gallery",
+    "legacy_filename": "PS_2.jpg",
+    "page": null,
+    "chapter": 2,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 91,
+  "fields": {
+    "title": "PS_3.jpg",
+    "file": "site/media/PS_3.jpg",
+    "alt_text": "Cheistha speaking at a microphone during a school assembly",
+    "role": "chapter_gallery",
+    "legacy_filename": "PS_3.jpg",
+    "page": null,
+    "chapter": 2,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 2,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 92,
+  "fields": {
+    "title": "rolling-trophy-address.png",
+    "file": "site/media/rolling-trophy-address.png",
+    "alt_text": "An address before the JIBS–Foundation backdrop",
+    "role": "initiative_satellite",
+    "legacy_filename": "rolling-trophy-address.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-nudge-lab-rolling-trophy",
+    "slot": 1,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 93,
+  "fields": {
+    "title": "rolling-trophy-moment.mp4",
+    "file": "site/media/rolling-trophy-moment.mp4",
+    "alt_text": "A moment from the Rolling Trophy initiative",
+    "role": "initiative_satellite",
+    "legacy_filename": "rolling-trophy-moment.mp4",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-nudge-lab-rolling-trophy",
+    "slot": 3,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 94,
+  "fields": {
+    "title": "rolling-trophy-presentation.png",
+    "file": "site/media/rolling-trophy-presentation.png",
+    "alt_text": "The Rolling Trophy being presented",
+    "role": "initiative_satellite",
+    "legacy_filename": "rolling-trophy-presentation.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-nudge-lab-rolling-trophy",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 95,
+  "fields": {
+    "title": "rolling-trophy-primary.png",
+    "file": "site/media/rolling-trophy-primary.png",
+    "alt_text": "The Cheistha Kochhar Rolling Trophy at the Behavioural Science Summit 2026",
+    "role": "initiative_primary",
+    "legacy_filename": "rolling-trophy-primary.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-nudge-lab-rolling-trophy",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 96,
+  "fields": {
+    "title": "rolling-trophy-summit.png",
+    "file": "site/media/rolling-trophy-summit.png",
+    "alt_text": "Speakers at the Behavioural Science Summit 2026",
+    "role": "initiative_satellite",
+    "legacy_filename": "rolling-trophy-summit.png",
+    "page": null,
+    "chapter": null,
+    "initiative": 6,
+    "collection_key": "jibs-nudge-lab-rolling-trophy",
+    "slot": 2,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 97,
+  "fields": {
+    "title": "uidai-logo.png",
+    "file": "site/media/uidai-logo.png",
+    "alt_text": "",
+    "role": "other",
+    "legacy_filename": "uidai-logo.png",
+    "page": null,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 98,
+  "fields": {
+    "title": "work_1.jpg",
+    "file": "site/media/work_1.jpg",
+    "alt_text": "Cheistha with classmates on the steps of the Harris Public Policy building",
+    "role": "chapter_gallery",
+    "legacy_filename": "work_1.jpg",
+    "page": null,
+    "chapter": 10,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 99,
+  "fields": {
+    "title": "work_2.jpg",
+    "file": "site/media/work_2.jpg",
+    "alt_text": "Cheistha at the Harris School of Public Policy, University of Chicago",
+    "role": "chapter_gallery",
+    "legacy_filename": "work_2.jpg",
+    "page": null,
+    "chapter": 10,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 100,
+  "fields": {
+    "title": "work_3.jpg",
+    "file": "site/media/work_3.jpg",
+    "alt_text": "Cheistha with her class at the London School of Economics",
+    "role": "chapter_gallery",
+    "legacy_filename": "work_3.jpg",
+    "page": null,
+    "chapter": 12,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 101,
+  "fields": {
+    "title": "work_4.jpg",
+    "file": "site/media/work_4.jpg",
+    "alt_text": "Cheistha with her professor in a lecture theatre at LSE",
+    "role": "chapter_gallery",
+    "legacy_filename": "work_4.jpg",
+    "page": null,
+    "chapter": 12,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 102,
+  "fields": {
+    "title": "yif_1.jpg",
+    "file": "site/media/yif_1.jpg",
+    "alt_text": "Cheistha with fellow graduands at the Young India Fellowship convocation",
+    "role": "chapter_gallery",
+    "legacy_filename": "yif_1.jpg",
+    "page": null,
+    "chapter": 8,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 103,
+  "fields": {
+    "title": "yif_2.jpg",
+    "file": "site/media/yif_2.jpg",
+    "alt_text": "Cheistha with Young India Fellowship classmates in convocation robes",
+    "role": "chapter_gallery",
+    "legacy_filename": "yif_2.jpg",
+    "page": null,
+    "chapter": 8,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 1,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 104,
+  "fields": {
+    "title": "cheistha-quote-000.jpg",
+    "file": "site/media/cheistha-quote-000.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-000.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 105,
+  "fields": {
+    "title": "cheistha-quote-001.jpg",
+    "file": "site/media/cheistha-quote-001.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-001.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 106,
+  "fields": {
+    "title": "cheistha-quote-002.jpg",
+    "file": "site/media/cheistha-quote-002.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-002.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 107,
+  "fields": {
+    "title": "cheistha-quote-003.jpg",
+    "file": "site/media/cheistha-quote-003.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-003.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 108,
+  "fields": {
+    "title": "cheistha-quote-004.jpg",
+    "file": "site/media/cheistha-quote-004.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-004.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 109,
+  "fields": {
+    "title": "cheistha-quote-005.jpg",
+    "file": "site/media/cheistha-quote-005.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-005.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 110,
+  "fields": {
+    "title": "cheistha-quote-006.jpg",
+    "file": "site/media/cheistha-quote-006.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-006.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 111,
+  "fields": {
+    "title": "cheistha-quote-007.jpg",
+    "file": "site/media/cheistha-quote-007.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-007.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 112,
+  "fields": {
+    "title": "cheistha-quote-008.jpg",
+    "file": "site/media/cheistha-quote-008.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-008.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 113,
+  "fields": {
+    "title": "cheistha-quote-009.jpg",
+    "file": "site/media/cheistha-quote-009.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-009.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 114,
+  "fields": {
+    "title": "cheistha-quote-010.jpg",
+    "file": "site/media/cheistha-quote-010.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-010.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 115,
+  "fields": {
+    "title": "cheistha-quote-011.jpg",
+    "file": "site/media/cheistha-quote-011.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-011.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 116,
+  "fields": {
+    "title": "cheistha-quote-012.jpg",
+    "file": "site/media/cheistha-quote-012.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-012.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 117,
+  "fields": {
+    "title": "cheistha-quote-013.jpg",
+    "file": "site/media/cheistha-quote-013.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-013.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 118,
+  "fields": {
+    "title": "cheistha-quote-014.jpg",
+    "file": "site/media/cheistha-quote-014.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-014.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 119,
+  "fields": {
+    "title": "cheistha-quote-015.jpg",
+    "file": "site/media/cheistha-quote-015.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-015.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 120,
+  "fields": {
+    "title": "cheistha-quote-016.jpg",
+    "file": "site/media/cheistha-quote-016.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-016.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 121,
+  "fields": {
+    "title": "cheistha-quote-017.jpg",
+    "file": "site/media/cheistha-quote-017.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-017.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 122,
+  "fields": {
+    "title": "cheistha-quote-018.jpg",
+    "file": "site/media/cheistha-quote-018.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-018.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 123,
+  "fields": {
+    "title": "cheistha-quote-019.jpg",
+    "file": "site/media/cheistha-quote-019.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-019.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 124,
+  "fields": {
+    "title": "cheistha-quote-020.jpg",
+    "file": "site/media/cheistha-quote-020.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-020.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 125,
+  "fields": {
+    "title": "cheistha-quote-021.jpg",
+    "file": "site/media/cheistha-quote-021.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-021.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 126,
+  "fields": {
+    "title": "cheistha-quote-022.jpg",
+    "file": "site/media/cheistha-quote-022.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-022.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+},
+{
+  "model": "sitecontent.mediaasset",
+  "pk": 127,
+  "fields": {
+    "title": "cheistha-quote-023.jpg",
+    "file": "site/media/cheistha-quote-023.jpg",
+    "alt_text": "",
+    "role": "quote",
+    "legacy_filename": "cheistha-quote-023.jpg",
+    "page": 1,
+    "chapter": null,
+    "initiative": null,
+    "collection_key": "",
+    "slot": 0,
+    "order": 0,
+    "is_visible": true
+  }
+}
+]

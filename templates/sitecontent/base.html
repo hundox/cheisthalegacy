@@ -1,0 +1,28 @@
+{% load static site_tags %}<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page_title|default:"The Cheistha Kochhar Foundation" }}</title>
+  <meta name="description" content="{{ page_meta_description|default:'The Cheistha Kochhar Foundation preserves Cheistha Kochhar\'s life, journey, work and enduring legacy.' }}">
+  <meta property="og:title" content="{{ page_title|default:'The Cheistha Kochhar Foundation' }}"><meta property="og:type" content="website">
+  <link rel="icon" href="{% static 'site/favicon.ico' %}"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'site/site.css' %}"><link rel="stylesheet" href="{% static 'site/mosaic.css' %}"><link rel="stylesheet" href="{% static 'site/layouts.css' %}"><link rel="stylesheet" href="{% static 'site/formative.css' %}">
+</head><body>
+<header class="site-header" id="top"><nav class="nav wrap">
+  <a class="brand" href="/"><img src="{{ 'foundation-logo.png'|asset_url }}" alt="The Cheistha Kochhar Foundation"></a>
+  <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <ul class="nav-links">{% for item in navigation_items %}<li class="{% if item.visible_children %}nav-dropdown{% endif %}"><a href="{{ item.url }}" {% if item.open_in_new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.label }}</a>{% if item.visible_children %}<div class="dropdown">{% for child in item.visible_children %}<a href="{{ child.url }}" {% if child.open_in_new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ child.label }}</a>{% endfor %}</div>{% endif %}</li>{% endfor %}</ul>
+</nav></header>
+<main>{% block content %}{% endblock %}</main>
+<a class="forever-missed" href="{{ site_config.forever_missed_url|default:'https://www.forevermissed.com/cheistha-kochhar/stories' }}" target="_blank" rel="noopener noreferrer" aria-label="Memories and testimonies, kept on ForeverMissed">&#9825; <span>Memories &amp; testimonies,<br> kept on ForeverMissed</span> &rarr;</a>
+<footer class="footer"><div class="wrap footer-grid">
+  <div><img class="footer-logo" src="{{ 'foundation-logo.png'|asset_url }}" alt="The Cheistha Kochhar Foundation"><p class="quote">&ldquo;How you make others feel is your only legacy.&rdquo;</p></div>
+  <div><span class="eyebrow">Foundation</span><a href="/foundation">The Foundation</a><a href="/initiatives">Foundation Initiatives</a></div>
+  <div><span class="eyebrow">Remembering Cheistha</span><a href="/#remembering">Her Story</a><a href="/#journey">Formative Years</a><a href="/professional">Professional Journey</a><a href="/gallery">Gallery</a><a href="/timeline">Timeline</a></div>
+  <div><span class="eyebrow">Connect</span><a class="pill outline" href="{{ site_config.linkedin_url|default:'https://in.linkedin.com/company/cheistha-kochhar-foundation' }}" target="_blank" rel="noopener">Reach out to us on LinkedIn &rarr;</a><a class="pill outline" href="{{ site_config.partnership_url|default:'https://docs.google.com/forms/d/e/1FAIpQLSdqSK-5Hza3rsq9cASGmVS9-aDtL3eCBaS2mEUBdxrQkRdxyw/viewform?usp=publish-editor' }}" target="_blank" rel="noopener">Partnership enquiry form &rarr;</a>
+    {% for contact in contacts %}<p class="contact-small"><strong>{{ contact.name }}</strong><a href="mailto:{{ contact.email }}">{{ contact.email }}</a><a href="tel:{{ contact.phone }}">{{ contact.phone }}</a></p>{% endfor %}
+  </div>
+</div><div class="wrap footer-bottom"><span>&copy; {% now "Y" %} The Cheistha Kochhar Foundation. All rights reserved.</span><i>Crafted with care, in loving memory.</i></div></footer>
+<script src="{% static 'site/site.js' %}" defer></script>
+<dialog class="photo-dialog" id="photo-dialog"><button class="dialog-close" aria-label="Close">&times;</button><img alt=""><p></p></dialog>
+</body></html>

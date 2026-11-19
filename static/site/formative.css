@@ -1,0 +1,20 @@
+.compass-grid .chapter-card .formative-photo-frame {
+  display: block;
+  width: 7.5rem;
+  overflow: hidden;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin: 1rem auto 1.5rem;
+}
+
+.compass-grid .chapter-card .formative-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 1200ms ease-out;
+}
+
+.compass-grid .chapter-card:hover .formative-photo {
+  transform: scale(1.1);
+}

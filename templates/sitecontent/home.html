@@ -1,0 +1,59 @@
+{% extends 'sitecontent/base.html' %}{% load site_tags %}{% block content %}
+{% with hero=site_sections|get_item:"home.hero" %}<section class="hero"><div class="hero-glow"></div>
+  <div class="hero-content animate-up">
+  <p class="hero-kicker rainbow">{{ hero.eyebrow|default:"In loving memory of Cheistha Kochhar" }}</p>
+  <h1 class="rainbow">{{ hero.heading|default:"The Cheistha Kochhar Foundation" }}</h1>
+  <p class="hero-copy rainbow-soft">{{ hero.body|default:"Advancing Nudge theory, research, education and public policy, translating thoughtful ideas into lasting social impact, in partnership with universities, public institutions and global organisations." }}</p>
+  <figure class="hero-video"><div class="video-frame"><video src="{{ hero_video_url|default:'cheistha-hero.mp4'|asset_url }}" poster="{{ hero_poster_url|default:'cheistha-portrait.jpeg'|asset_url }}" muted playsinline autoplay controls preload="metadata" aria-label="A brief memory of Cheistha Kochhar"></video>
+  </div><figcaption>A fleeting moment, remembered</figcaption></figure>
+  <div class="button-row centered"><a class="button" href="#foundation">Explore Our Work &darr;</a>
+    <a class="button secondary" href="#remembering">Remembering Cheistha &rarr;</a></div>
+</div></section>{% endwith %}
+<div class="wave-divider"><svg viewBox="0 0 800 40" preserveAspectRatio="none">
+  <path d="M0 20 Q 200 -10 400 20 T 800 20"/></svg></div>
+{% with intro=site_sections|get_item:"home.foundation" %}<section id="foundation" class="section band">
+  <div class="wrap foundation-intro"><div><p class="eyebrow">{{ intro.eyebrow|default:"The Foundation" }}</p>
+
+    <h2>{{ intro.heading|default:"What the Foundation does" }}</h2><p class="lead">{{ intro.body|default:"The Cheistha Kochhar Foundation carries forward her conviction that rigorous ideas, applied with empathy, can change how institutions serve people through nudge theory, public policy, education and scholarships, leadership programmes, memorial lectures and partnerships. Its continuing work is gathered under Legacy in Action." }}</p><a class="button" href="/foundation">Explore the Foundation &rarr;</a>
+  </div><div class="logo-card"><img src="{{ 'foundation-logo.png'|asset_url }}" alt="The Cheistha Kochhar Foundation"><hr><span>The Cheistha Kochhar Foundation</span></div></div></section>{% endwith %}
+<section class="quote-divider"><blockquote>&ldquo;How you make others feel is your only legacy.&rdquo;</blockquote><span class="eyebrow">Cheistha Kochhar</span></section>
+{% with section=site_sections|get_item:"home.remembering" %}<section id="remembering" class="section narrow center">
+  <p class="eyebrow">{{ section.eyebrow|default:"The person behind the Foundation" }}</p><h2>{{ section.heading|default:"Remembering Cheistha" }}</h2><p class="lead">{{ section.body|default:"Behind every initiative is a person whose ideas, values and cheerful courage made this work possible. What follows is her story: a curious mind shaped by school corridors, university halls and a lifelong belief in public service." }}</p></section>{% endwith %}
+{% with section=site_sections|get_item:"home.journey" %}<section id="journey" class="section"><div class="wrap">
+  <p class="eyebrow">{{ section.eyebrow|default:"Her life & education" }}</p>
+  <h2>{{ section.heading|default:"Her Formative Years" }}</h2>
+  <p class="lead">{{ section.body|default:"Four chapters, a clockwise walk around her portrait, trace a curious, cheerful mind through childhood, primary school, senior school and college." }}</p>
+<div class="compass-grid">
+  {% if journey.0 %}<a class="chapter-card compass-top" href="/journey/{{ journey.0.slug }}">
+    <span class="step">1</span>{% if journey.0.card_photo %}<span class="formative-photo-frame"><img class="formative-photo" src="{{ journey.0.card_photo.filename|asset_url }}" alt="{{ journey.0.card_photo.alt }}" loading="lazy"></span>{% endif %}
+    <span class="eyebrow">{{ journey.0.period }}</span><h3>{{ journey.0.title }}</h3><p>{{ journey.0.tagline }}</p><b>Enter chapter &rarr;</b>
+  </a>{% endif %}
+  {% if journey.3 %}<a class="chapter-card compass-left" href="/journey/{{ journey.3.slug }}">
+    <span class="step">4</span>{% if journey.3.card_photo %}<span class="formative-photo-frame"><img class="formative-photo" src="{{ journey.3.card_photo.filename|asset_url }}" alt="{{ journey.3.card_photo.alt }}" loading="lazy"></span>{% endif %}
+    <span class="eyebrow">{{ journey.3.period }}</span><h3>{{ journey.3.title }}</h3><p>{{ journey.3.tagline }}</p><b>Enter chapter &rarr;</b>
+  </a>{% endif %}
+  <div class="compass-portrait"><img src="{{ 'glass_card.jpg'|asset_url }}" alt="Cheistha Kochhar"><span>Cheistha Kochhar</span></div>
+  {% if journey.1 %}<a class="chapter-card compass-right" href="/journey/{{ journey.1.slug }}">
+    <span class="step">2</span>{% if journey.1.card_photo %}<span class="formative-photo-frame"><img class="formative-photo" src="{{ journey.1.card_photo.filename|asset_url }}" alt="{{ journey.1.card_photo.alt }}" loading="lazy"></span>{% endif %}
+    <span class="eyebrow">{{ journey.1.period }}</span><h3>{{ journey.1.title }}</h3><p>{{ journey.1.tagline }}</p><b>Enter chapter &rarr;</b>
+  </a>{% endif %}
+  {% if journey.2 %}<a class="chapter-card compass-bottom" href="/journey/{{ journey.2.slug }}">
+    <span class="step">3</span>{% if journey.2.card_photo %}<span class="formative-photo-frame"><img class="formative-photo" src="{{ journey.2.card_photo.filename|asset_url }}" alt="{{ journey.2.card_photo.alt }}" loading="lazy"></span>{% endif %}
+    <span class="eyebrow">{{ journey.2.period }}</span><h3>{{ journey.2.title }}</h3><p>{{ journey.2.tagline }}</p><b>Enter chapter &rarr;</b>
+  </a>{% endif %}
+</div></div></section>{% endwith %}
+<section class="quote-slideshow"><div class="quote-slides">{% for slide in quotes %}
+{% if slide.file %}<img src="{{ slide.url }}" alt="{{ slide.alt_text|default:'Cheistha Kochhar quotation' }}" class="quote-slide 
+{% if forloop.first %}active{% endif %}" loading="lazy">{% else %}<img src="{{ slide.legacy_filename|asset_url }}" 
+alt="{{ slide.alt_text|default:'Cheistha Kochhar quotation' }}" class="quote-slide 
+{% if forloop.first %}active{% endif %}" loading="lazy">{% endif %}{% endfor %}
+<button class="quote-prev" aria-label="Previous quotation">&#8592;</button>
+<button class="quote-next" aria-label="Next quotation">&#8594;</button></div>
+<div class="quote-count"><span class="quote-current">1</span> / {{ quotes|length }}</div></section>
+{% with section=site_sections|get_item:"home.professional" %}
+<section id="professional" class="section band"><div class="wrap">
+<p class="eyebrow">{{ section.eyebrow|default:"Her work & institutions" }}</p>
+<h2>{{ section.heading|default:"Professional Journey" }}</h2><p class="lead">
+{{ section.body|default:"This chapter explores Cheistha Kochhar's professional experiences and the institutions that shaped her career and public service journey." }}</p>
+<div class="cover-image"><img src="{{ 'professional-cover.jpg'|asset_url }}" alt="Professional Journey"><div><span>Chapter Cover</span><h3>Professional Journey</h3></div></div><div class="button-row centered"><a class="button" href="/professional">Explore Professional Journey &rarr;</a><a class="button secondary" href="/gallery">Photographs &amp; Gallery &rarr;</a></div></div></section>{% endwith %}
+{% endblock %}

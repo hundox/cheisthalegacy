@@ -1,0 +1,387 @@
+{
+  "chapters": {
+    "early-childhood": [
+      {
+        "filename": "childhood_1.jpg",
+        "alt": "Cheistha as a young child"
+      }
+    ],
+    "primary-school": [
+      {
+        "filename": "PS_1.jpg",
+        "alt": "Cheistha in traditional costume for a school performance"
+      },
+      {
+        "filename": "PS_2.jpg",
+        "alt": "Cheistha saluting with her brother holding the Indian flag"
+      },
+      {
+        "filename": "PS_3.jpg",
+        "alt": "Cheistha speaking at a microphone during a school assembly"
+      }
+    ],
+    "school-years": [
+      {
+        "filename": "hs_2.jpg",
+        "alt": "Cheistha in school uniform holding a trophy shield"
+      },
+      {
+        "filename": "HS_1.jpg",
+        "alt": "Cheistha with her school team and teacher holding a winners' shield"
+      },
+      {
+        "filename": "HS_3.jpg",
+        "alt": "Cheistha compering at a school event alongside a fellow student"
+      },
+      {
+        "filename": "HS_4.jpg",
+        "alt": "Cheistha speaking on stage at an Army regiment event"
+      },
+      {
+        "filename": "HS_5.jpg",
+        "alt": "Cheistha beside her paintings at a school art exhibition"
+      }
+    ],
+    "college": [
+      {
+        "filename": "college_1.jpg",
+        "alt": "Cheistha with college friends on a train journey"
+      }
+    ],
+    "young-india-fellowship": [
+      {
+        "filename": "yif_1.jpg",
+        "alt": "Cheistha with fellow graduands at the Young India Fellowship convocation"
+      },
+      {
+        "filename": "yif_2.jpg",
+        "alt": "Cheistha with Young India Fellowship classmates in convocation robes"
+      }
+    ],
+    "university-of-chicago": [
+      {
+        "filename": "work_2.jpg",
+        "alt": "Cheistha at the Harris School of Public Policy, University of Chicago"
+      },
+      {
+        "filename": "work_1.jpg",
+        "alt": "Cheistha with classmates on the steps of the Harris Public Policy building"
+      }
+    ],
+    "london-school-of-economics": [
+      {
+        "filename": "work_3.jpg",
+        "alt": "Cheistha with her class at the London School of Economics"
+      },
+      {
+        "filename": "work_4.jpg",
+        "alt": "Cheistha with her professor in a lecture theatre at LSE"
+      }
+    ]
+  },
+  "primary": {
+    "behavioural-confluence-christ": {
+      "filename": "christ-confluence-hall.jpeg",
+      "alt": "The hall at CHRIST University, Bengaluru, where Behavioural Confluence was held"
+    },
+    "merit-scholarship-manak-school": {
+      "filename": "fi2.jpg",
+      "alt": "Students receiving Cheistha Kochhar Merit Scholarship certificates at Manak School"
+    },
+    "brics-cci-women-icon-award": {
+      "filename": "brics-cci-stage-wide-2.jpg",
+      "alt": "The gathering on stage at the BRICS CCI WE Annual Summit 2026"
+    },
+    "nudge-awards-ispp": {
+      "filename": "nudge-awards-lousi-miranda.png",
+      "alt": "Mr Luis Miranda, Honorary Vice Chairperson, NITI Aayog, at the Nudge Awards 2026"
+    },
+    "people-speak-memorial-debate": {
+      "filename": "people-speak-primary.png",
+      "alt": "The People Speak '26 memorial debate trophies"
+    },
+    "jibs-strategic-partnership": {
+      "filename": "jibs-Screenshot_2026-10-01_113058.png",
+      "alt": "The framed MoU between JIBS and the Foundation"
+    },
+    "jibs-nudge-lab-rolling-trophy": {
+      "filename": "rolling-trophy-primary.png",
+      "alt": "The Cheistha Kochhar Rolling Trophy at the Behavioural Science Summit 2026"
+    },
+    "first-memorial-lecture-du": {
+      "filename": "memorial-lecture-panel-seated.png",
+      "alt": "The panel on stage at the 1st Cheistha Kochhar Memorial Lecture"
+    },
+    "annual-memorial-lecture-svc": {
+      "filename": "aml-primary.jpg",
+      "alt": "Speakers and guests at the Annual Memorial Lecture"
+    },
+    "good-samaritan-award": {
+      "filename": "good-samaritan-Screenshot_2026-10-05_121452.png",
+      "alt": "An address before the memorial screen at the Good Samaritan Award"
+    },
+    "lse-mres-prize": {
+      "filename": "lse-cheistha.jpg",
+      "alt": "Cheistha at the London School of Economics"
+    },
+    "anubhav-lecture-series-ispp": {
+      "filename": "anubhav-poster.jpg",
+      "alt": "The Cheistha Kochhar Anubhav Lecture Series poster"
+    },
+    "debate-essay-aps-mhow": {
+      "filename": "aps-mhow-debate-banner.jpeg",
+      "alt": "Trophies and guests before the competition banner at Army Public School, Mhow"
+    },
+    "rolling-trophy-ait-pune": {
+      "filename": "ait-rolling-trophy-presentation.jpeg",
+      "alt": "The Best Female Post Graduate Student award being presented at Army Institute of Technology, Pune"
+    }
+  },
+  "satellites": {
+    "behavioural-confluence-christ": [
+      {
+        "filename": "christ-confluence-winner.jpeg",
+        "alt": "Lt Gen Dr S P Kochhar with the winner's trophy recipients"
+      },
+      {
+        "filename": "christ-confluence-certificates.jpeg",
+        "alt": "Participants with their certificates alongside Lt Gen Dr S P Kochhar"
+      },
+      {
+        "filename": "christ-confluence-kochhar-address.jpeg",
+        "alt": "Lt Gen Dr S P Kochhar addressing the gathering"
+      },
+      {
+        "filename": "christ-confluence-memento.jpeg",
+        "alt": "Lt Gen Dr S P Kochhar with participants, certificates and a memento"
+      },
+      {
+        "filename": "christ-confluence-ceremony.jpeg",
+        "alt": "An address at the valedictory ceremony"
+      },
+      {
+        "filename": "christ-confluence-speaker.jpeg",
+        "alt": "A speaker at the Cheistha Kochhar Nudge Lecture Series ceremony"
+      }
+    ],
+    "merit-scholarship-manak-school": [
+      {
+        "filename": "fi_1.jpg",
+        "alt": "Lt. Gen. Dr. S. P. Kochhar presenting the Foundation's contribution"
+      },
+      {
+        "filename": "fi_3.jpg",
+        "alt": "Lt. Gen. Dr. S. P. Kochhar with family among the children"
+      },
+      {
+        "filename": "fi_4.jpg",
+        "alt": "Children of Manak School gathered for the Merit Scholarship programme"
+      }
+    ],
+    "brics-cci-women-icon-award": [
+      {
+        "filename": "brics-cci-trophy-handover.jpg",
+        "alt": "The Trailblazer Woman Icon trophy being handed over on stage"
+      },
+      {
+        "filename": "brics-cci-stage-wide-1.jpg",
+        "alt": "The trophy presented before the screen bearing Cheistha's name"
+      },
+      {
+        "filename": "brics-cci-woman-icon.jpg",
+        "alt": "The stage at the BRICS CCI WE Annual Summit 2026"
+      }
+    ],
+    "nudge-awards-ispp": [
+      {
+        "filename": "nudge-awards-father.png",
+        "alt": "Lt. Gen. Dr. S. P. Kochhar addressing the audience"
+      },
+      {
+        "filename": "nudge-awards-vice-chairperson.png",
+        "alt": "An address at the Nudge Awards 2026"
+      },
+      {
+        "filename": "nudge-awards-cheque.png",
+        "alt": "Award recipients with the ceremonial cheque"
+      },
+      {
+        "filename": "nudge-awards-recipient-cheque-1.png",
+        "alt": "A recipient receiving the ceremonial cheque"
+      },
+      {
+        "filename": "nudge-awards-recipient-cheque-2.png",
+        "alt": "Another recipient receiving the ceremonial cheque"
+      }
+    ],
+    "people-speak-memorial-debate": [
+      {
+        "filename": "people-speak-address.png",
+        "alt": "An address at the podium"
+      },
+      {
+        "filename": "people-speak-winner.png",
+        "alt": "The Open Winner's trophy presentation"
+      },
+      {
+        "filename": "people-speak-best-speaker.png",
+        "alt": "The Best Open Speaker award"
+      },
+      {
+        "filename": "people-speak-runner-up.png",
+        "alt": "The Open Runner-Up award"
+      }
+    ],
+    "jibs-strategic-partnership": [
+      {
+        "filename": "jibs-Screenshot_2026-10-01_113042.png",
+        "alt": "The MoU being signed"
+      },
+      {
+        "filename": "jibs-Screenshot_2026-10-01_113250.png",
+        "alt": "An address before the MoU backdrop"
+      },
+      {
+        "filename": "jibs-Screenshot_2026-10-05_114617.png",
+        "alt": "A panel at the Behavioural Science Summit 2026"
+      },
+      {
+        "filename": "jibs-Screenshot_2026-10-05_115047.png",
+        "alt": "The audience gathered at the Behavioural Science Summit 2026"
+      }
+    ],
+    "jibs-nudge-lab-rolling-trophy": [
+      {
+        "filename": "rolling-trophy-presentation.png",
+        "alt": "The Rolling Trophy being presented"
+      },
+      {
+        "filename": "rolling-trophy-address.png",
+        "alt": "An address before the JIBS–Foundation backdrop"
+      },
+      {
+        "filename": "rolling-trophy-summit.png",
+        "alt": "Speakers at the Behavioural Science Summit 2026"
+      },
+      {
+        "filename": "rolling-trophy-moment.mp4",
+        "alt": "A moment from the Rolling Trophy initiative",
+        "kind": "video"
+      }
+    ],
+    "first-memorial-lecture-du": [
+      {
+        "filename": "memorial-lecture-Screenshot_2026-10-05_120505.png",
+        "alt": "A memento presented at the lecture's conclusion"
+      },
+      {
+        "filename": "memorial-lecture-Screenshot_2026-10-05_120455.png",
+        "alt": "Biju Dominic's slide: 'The Future of Nudge Theory in the world of Smartphones'"
+      },
+      {
+        "filename": "memorial-lecture-Screenshot_2026-10-05_120536.png",
+        "alt": "An address on Nudge Theory"
+      },
+      {
+        "filename": "memorial-lecture-Screenshot_2026-10-05_120554.png",
+        "alt": "The concluding address at the 1st Cheistha Kochhar Memorial Lecture"
+      }
+    ],
+    "annual-memorial-lecture-svc": [
+      {
+        "filename": "aml-panel.jpg",
+        "alt": "The panel on stage at Sri Venkateswara College"
+      },
+      {
+        "filename": "aml-podium.jpg",
+        "alt": "The memorial lecture at the podium"
+      },
+      {
+        "filename": "aml-memento.jpg",
+        "alt": "A memento presented to the speaker"
+      }
+    ],
+    "good-samaritan-award": [
+      {
+        "filename": "good-samaritan-Screenshot_2026-10-05_121507.png",
+        "alt": "The Good Samaritan Award being presented"
+      },
+      {
+        "filename": "good-samaritan-Screenshot_2026-10-05_121522.png",
+        "alt": "A memento of remembrance being presented"
+      },
+      {
+        "filename": "good-samaritan-jayjit-plant.png",
+        "alt": "Dr Jayjit Bhattacharya exchanging a plant memento"
+      },
+      {
+        "filename": "good-samaritan-jayjit-podium.jpg",
+        "alt": "Dr Jayjit Bhattacharya addressing the gathering"
+      }
+    ],
+    "lse-mres-prize": [
+      {
+        "filename": "lse-phd-study-room.jpg",
+        "alt": "The Cheistha Kochhar PhD Study Room at LSE"
+      },
+      {
+        "filename": "lse-memorial-plaque.jpg",
+        "alt": "Memorial plaque to Cheistha at LSE"
+      },
+      {
+        "filename": "lse-tributes.jpg",
+        "alt": "Tributes from LSE and the Harris School"
+      }
+    ],
+    "anubhav-lecture-series-ispp": [
+      {
+        "filename": "anubhav-participants.jpg",
+        "alt": "Cheistha with the programme's participants"
+      },
+      {
+        "filename": "anubhav-lecture-hall.jpg",
+        "alt": "A session in the lecture hall"
+      }
+    ],
+    "rolling-trophy-ait-pune": [
+      {
+        "filename": "ait-icndia-2026-release.jpeg",
+        "alt": "Release of the ICNDIA 2026 proceedings"
+      },
+      {
+        "filename": "ait-sp-kochhar-address.jpeg",
+        "alt": "Lt Gen Dr S P Kochhar addressing the gathering"
+      },
+      {
+        "filename": "ait-kochhars-audience.jpeg",
+        "alt": "Lt Gen Dr S P Kochhar in the audience"
+      },
+      {
+        "filename": "ait-visitors-book.jpeg",
+        "alt": "Lt Gen Dr S P Kochhar signing the visitors' book"
+      }
+    ]
+  },
+  "groups": {
+    "annual-memorial-lecture-svc": [
+      {
+        "label": "Images from the Annual Memorial Lecture",
+        "slug": "annual-memorial-lecture-svc"
+      },
+      {
+        "label": "Images from the People Speak Memorial Debate",
+        "slug": "people-speak-memorial-debate"
+      }
+    ],
+    "jibs-strategic-partnership": [
+      {
+        "label": "Images from the Strategic Partnership with JIBS",
+        "slug": "jibs-strategic-partnership"
+      },
+      {
+        "label": "Images from the Cheistha Kochhar Rolling Trophy",
+        "slug": "jibs-nudge-lab-rolling-trophy"
+      }
+    ]
+  }
+}
