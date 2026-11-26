@@ -32,25 +32,9 @@ Open <http://127.0.0.1:8000/> for the site or <http://127.0.0.1:8000/admin/> to 
 
 ### Vercel
 
-Import this repository into Vercel as a Django project. Vercel detects `manage.py` and runs `collectstatic` during the build. Create a persistent PostgreSQL database and set these environment variables for each Vercel environment:
+Vercel detects `manage.py` and runs `collectstatic` during the build. It serves the checked-in, content-only SQLite snapshot at `sitecontent/archive.sqlite3` in read-only mode, and serves bundled media as static files. No database service or database environment variable is required. Set `DJANGO_ALLOWED_HOSTS` to comma-separated custom domains if needed; Vercel's `*.vercel.app` hosts are already allowed.
 
-- `DATABASE_URL`: the PostgreSQL connection URL, including any provider-required SSL options.
-- `DJANGO_SECRET_KEY`: a long, random secret.
-- `DJANGO_DEBUG`: `false`.
-- `DJANGO_ALLOWED_HOSTS`: comma-separated custom domains, if any. Vercel's `*.vercel.app` hosts are already allowed.
-- `DJANGO_CSRF_TRUSTED_ORIGINS`: comma-separated HTTPS origins for any custom domains used to access the admin, for example `https://example.com`.
-
-Before serving traffic, initialize the new database from a trusted local terminal with the same `DATABASE_URL` set. Install the requirements, then run:
-
-```sh
-python manage.py migrate
-python manage.py loaddata sitecontent/initial_content.json
-python manage.py createsuperuser
-```
-
-The fixture captures the existing site content without user accounts. Load it only into a new, empty database; it can overwrite records on an existing site. Subsequent content edits live in PostgreSQL. Local SQLite and Vercel's temporary filesystem are not persistent production databases.
-
-The checked-in media is collected as static files and served from Vercel's CDN. Vercel's filesystem is read-only at runtime, so uploads through Django Admin require a separately configured persistent object-storage backend; editing text and selecting existing media records does not require uploads. To add bundled media, commit the files and redeploy. Provision external storage before relying on Admin uploads.
+The snapshot contains no user accounts, and Django Admin is disabled on Vercel because edits and uploads cannot persist on its read-only filesystem. To update the deployed site, edit content locally, regenerate `sitecontent/initial_content.json` and a fresh `sitecontent/archive.sqlite3` from the local content, then commit and push both along with any new media. Do not copy a local database containing user accounts into the repository. A persistent database and object storage are needed for online editing.
 
 For a conventional server, set `DJANGO_DEBUG=false`, `DJANGO_SECRET_KEY` to a long random secret, and `DJANGO_ALLOWED_HOSTS` to the deployed hostname(s). Then run:
 

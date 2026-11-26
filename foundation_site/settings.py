@@ -69,4 +69,13 @@ STORAGES = {
     "staticfiles": {"BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage"},
 }
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-DATABASES = {"default": dj_database_url.config(default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}", conn_max_age=0)}
+if ON_VERCEL:
+    # The deployment contains a content-only snapshot. Immutable mode prevents
+    # SQLite from trying to create journal files on Vercel's read-only disk.
+    DATABASES = {"default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": (BASE_DIR / "sitecontent" / "archive.sqlite3").as_uri() + "?mode=ro&immutable=1",
+        "OPTIONS": {"uri": True},
+    }}
+else:
+    DATABASES = {"default": dj_database_url.config(default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}", conn_max_age=0)}
